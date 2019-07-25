@@ -62,8 +62,8 @@ gem 'rspec-rails', '~> 3.8', groups: %i[development test]
 
 gem 'shoulda-matchers', '~> 4.1', group: :test
 
-gem 'factory_bot', '~> 5.0', group: :test
-
 gem 'rubocop', '~> 0.73.0', group: :development, require: false
 
 gem 'rubocop-rails', '~> 2.2', group: :development
+
+gem 'factory_bot_rails', '~> 5.0', groups: %i[development test]

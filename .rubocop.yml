@@ -5,6 +5,10 @@ AllCops:
     - 'bin/**/*'
     - 'config/**/*'
 
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
 Metrics/LineLength:
   Enabled: false
 
