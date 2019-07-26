@@ -68,4 +68,4 @@ gem 'rubocop-rails', '~> 2.2', group: :development
 
 gem 'factory_bot_rails', '~> 5.0', groups: %i[development test]
 
-gem "hubspot-ruby", "~> 0.8.1"
+gem 'hubspot-ruby', '~> 0.8.1'

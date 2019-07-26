@@ -18,10 +18,9 @@ RSpec.describe 'Hubspot::CreateContactService', type: :service do
       end
 
       it 'calls Hubspot library' do
-        expect(Hubspot::Contact).to have_received(:create!).with(contact.email, {
-          'firstname' => contact.firstname,
-          'lastname' => contact.lastname
-        })
+        expect(Hubspot::Contact).to have_received(:create!).with(contact.email,
+                                                                 'firstname' => contact.firstname,
+                                                                 'lastname' => contact.lastname)
       end
 
       it 'is a success' do

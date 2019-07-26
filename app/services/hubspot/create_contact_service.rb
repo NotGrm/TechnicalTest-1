@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Hubspot
   class CreateContactService
     attr_reader :contact, :hubspot_contact_id
